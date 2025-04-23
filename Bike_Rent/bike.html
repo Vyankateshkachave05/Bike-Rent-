@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Rental Shop</title>
+    <link rel="stylesheet" href="bike.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Bike Rental Shop</h1>
+        <div class="stock">
+            <p>Total bikes available: <span id="stock-count">100</span></p>
+        </div>
+
+        <h2>Customer Info</h2>
+        <form id="rental-form">
+            <label for="number-of-bikes">Number of Bikes:</label>
+            <input type="number" id="number-of-bikes" min="1" max="100" required>
+
+            <label for="rental-basis">Rental Basis (day/week):</label>
+            <input type="text" id="rental-basis" required>
+
+            <label for="days-or-weeks">Number of Days/Weeks:</label>
+            <input type="number" id="days-or-weeks" min="1" required>
+
+            <button type="submit">Rent Bikes</button>
+        </form>
+
+        <h2>Return Bikes</h2>
+        <form id="return-form">
+            <button type="submit">Return Bikes</button>
+        </form>
+
+        <div id="bill"></div>
+    </div>
+
+    <script src="bike.js"></script>
+</body>
+</html>
