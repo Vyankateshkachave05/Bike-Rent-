@@ -2,10 +2,15 @@
 A simple Python-based Bike Rental System where customers can rent bikes on a daily or weekly basis, return them, and receive billing with possible discounts — all through a command-line interface.
 
 🚀 Key Features
+
 🏍️ Rent bikes based on day or week
+
 🔍 View the number of bikes currently in stock
+
 🧾 Return bikes and generate a bill
+
 🏷️ Get a 30% Family Discount when renting between 3 to 5 bikes
+
 ❌ Exit the program when done
 
 🛠 Technologies Used
